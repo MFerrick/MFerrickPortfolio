@@ -1,0 +1,265 @@
+
+.heading {
+    background-color: #FEF996;
+}
+
+.heading img {
+    border-radius: 100px;
+    height: 140px;
+    width: 140px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading h1 {
+    text-align: center;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+}
+
+.heading h2 {
+    text-align: center;
+    color: #525050;
+    font-family: 'Raleway', sans-serif;
+}
+.skills {
+    text-align: center;
+    color: #525050;
+}
+
+.skills i {
+    padding-right: 20px;
+}
+
+#daisy img {
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+
+.nav {
+    background-color: #92BD86;
+    height: 100px;
+    margin: 60px 100px 0px 100px;
+    padding-bottom: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+
+.nav li {
+    margin-right: 80px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: #E2008A;
+}
+
+.main {
+    background-color: white;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: #525050;
+    padding-top: 60px;  
+}
+
+.border {
+    border-bottom: 5px solid #68BBE5;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-images img {
+    height: 300px;
+    width: 200px;
+}
+
+#pathways {
+    height:200px;
+    width: 300px;
+}
+
+.work-images h3 {
+    text-align: center;
+    font-weight: normal;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+}
+.work-images ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-images li {
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+.work-border {
+    border-bottom: 2px ridge #68BBE5;
+    opacity: 0.5;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*need to fix spacing - margin?*/
+.work-titles li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+}
+
+.wireframe ul {
+    padding-bottom: 60px;
+}
+
+.work-titles a {
+    text-decoration: none;
+    color: #525050;
+}
+
+.work-titles a:hover {
+    color: #E2008A;
+}
+
+.pub-images img {
+    width: 300px;
+    height: 200px;
+}
+
+.pub-images ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pub-images li {
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+.work-titles ul {
+    padding-bottom: 60px;
+}
+
+.about img {
+    height: 300px;
+    width: 200px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+.about {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    vertical-align: center;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+    line-height: 32px;
+}
+
+.form {
+    margin-top: 60px;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form p {
+    margin-bottom: 5px;
+}
+
+#name {
+    padding-bottom: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+#message {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    width: 300px;
+    height: 100px;
+}
+
+#send {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #525050;
+    font-family: 'Comfortaa', cursive;
+}
+
+.social ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social li a {
+    padding-left: 40px;
+    padding-right: 40px;
+    color:  #92BD86
+}
+
+.social li a:hover {
+    color: #E2008A;
+}
+
+
